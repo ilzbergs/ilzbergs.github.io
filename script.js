@@ -85,3 +85,9 @@ if (window.addEventListener) {
 
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+$(document).ready(function () {
+    $(document).click(function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+});
