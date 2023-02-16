@@ -160,12 +160,6 @@ span {
     color: white;
 }
 
-.logo:hover::after {
-    content: 'Take me back Home';
-    position: absolute;
-    color: white;
-    font-size: 10px;
-}
 
 .navbar-brand {
     font-size: 2.5rem;
