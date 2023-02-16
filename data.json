@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Portfolio",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image":"images/portfolio.png",
+        "github":"https://github.com/ilzbergs/ilzbergs.github.io"
+    },
+    {
+        "name": "Portfolio2",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    },
+    {
+        "name": "Portfolio3",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    },
+    {
+        "name": "Portfolio4",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    },
+    {
+        "name": "Portfolio5",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    },
+    {
+        "name": "Portfolio6",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    },
+    {
+        "name": "Portfolio7",
+        "description": "My first project that I made as school graduation work",
+        "skills": "HTML, SCSS",
+        "link": "https://ilzbergs.github.io/",
+        "image": "images/portfolio.png"
+    }
+    
+]

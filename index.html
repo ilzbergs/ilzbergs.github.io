@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"
+        defer="" data-deferred="1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <title>My portfolio</title>
+    <section id="title">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><i class="fa-solid fa-house-user logo"></i></a>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jobs" data-hover="My Jobs">My Jobs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-hover="My CV">My CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-hover="Contact Me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="warning">Still working on site...!</div>
+
+
+    <div class="background-container">
+        <img class="bg-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+    </div>
+
+<body>
+    <div class="container">
+        <div class="header-text">
+            <h2><span class="type" style="--n:53">I'm a junior Front-end Developer!</span></h2>
+
+        </div>
+
+        <div class="section">
+            <p id="text"></p>
+        </div>
+        <div class="section spacer"></div>
+        <section id="about-me">
+            <div class="row left">
+                <div class="about float">Hello! My name is Toms Ilzbergs and I'm in Latvia living junior Front-End
+                    developer.
+                    I
+                    have some basic skills, ranging
+                    from design, databases, to HTML + CSS + JavaScript, all the way to React and Node JS!
+                </div>
+            </div>
+            <h2 class="headings">My skills</h2>
+            <div class="row right">
+                <div class="about float">
+                    <p>Main area of my expertise is front end development and everything related with this side of web.
+                        HTML, CSS, JS. Now, I
+                        am currently learning one of the front-end frameworks, React.js .</p>
+                </div>
+                <span class="content float"></span>
+            </div>
+        </section>
+
+        <div class="floating-text">
+            <h1 class="float text type">I’m a mysterious individual who has yet to fill out my bio. One thing’s for certain:
+                I love writing front-end code!</h1>
+        </div>
+
+
+        <section id="jobs">
+            <div >
+                <h2 class="headings">My Jobs</h2>
+                <div class="row" id="job">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact">
+            <h2 class="headings ">Contact me</h2>
+            <form class="form" id="myForm" action="https://formspree.io/f/mgebavdb" method="POST">
+                <div class="contact-form">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Enter your email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" name="text" class="form-label">Your question for me?</label>
+                        <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
+                    </div>
+                    <button class="btn-contact" type="submit" onabort="myFunction()">Send</button>
+                </div>
+            </form>
+
+            <div class="wrapper">
+                <a href="https://www.facebook.com/toms.ilzbergs/" target="_blank" class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="https://www.linkedin.com/in/toms-ilzbergs-4b9692241/" target="_blank" class="icon linkedin">
+                    <div class="tooltip">LinkedIn</div>
+                    <span><i class="fab fa-linkedin"></i></span>
+                </a>
+                <a href="https://github.com/ilzbergs" target="_blank" class="icon github">
+                    <div class="tooltip">Github</div>
+                    <span><i class="fab fa-github"></i></span>
+                </a>
+            </div>
+
+        </section>
+
+
+
+
+
+
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Created by Toms Ilzbergs © <span id="year"></span></p>
+        </div>
+    </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
