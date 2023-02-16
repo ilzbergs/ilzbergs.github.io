@@ -192,7 +192,7 @@ span {
     height: 3px;
     width: 0%;
     content: "";
-    background-color: var(--headingColor)
+    background-color:var(--headingColor);
 }
 
 .navbar-nav a:after {
@@ -302,8 +302,10 @@ span {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border: 1px solid rgba(246, 245, 248, 0.18);
+    display: block;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .container-fluid.active {
