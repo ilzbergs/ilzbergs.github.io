@@ -381,7 +381,7 @@ span {
     width: 50%;
     transform: translate(50%, -50%);
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
     color: var(--headingColor);
     font-family: var(--vt323);
     border-bottom: 1px solid rgba(236, 236, 241, 0.37);
@@ -436,6 +436,7 @@ span {
 .headerVisible {
     opacity: 1;
     transform: translateY(0);
+    margin-bottom: 2rem;
 }
 
 .floating-text {
