@@ -40,6 +40,36 @@
         "description": "A little bit more complex ToDo app with Node.js and MongoDB",
         "link": "https://warm-lake-38037.herokuapp.com/",
         "image": "images/todolist.webp"
+    },
+    {
+        "name": "Time tracking dashboard",
+        "description":"Dashboard where you can see your daily/weekly or monthly activity",
+        "link":"https://ilzbergs.github.io/Time-tracking-dashboard/",
+        "image": "images/dashboard.webp"
+    },
+    {
+        "name": "Clipboard landingpage",
+        "description": "Random landing page from www.frontendmentor.io challenge",
+        "link": "https://ilzbergs.github.io/Clipboard-landing-page/",
+        "image": "images/clipboard.webp"
+    },
+    {
+        "name": "Advice generator app",
+        "description": "Generate some random advice for yourself",
+        "link": "https://ilzbergs.github.io/Advice-generator-app/",
+        "image": "images/advice.webp"
+    },
+    {
+        "name": "Tip Calculator",
+        "description": "App where you can split your bill to see one's persons amount",
+        "link": "https://ilzbergs.github.io/Tip-Calculator-app/",
+        "image": "images/tip.webp"
+    },
+    {
+        "name": "Sunnyside landingpage",
+        "description": "Random landing page from www.frontendmentor.io challenge",
+        "link": "https://ilzbergs.github.io/sunnyside-landingpage/",
+        "image": "images/sunnyside.webp"
     }
 
    
