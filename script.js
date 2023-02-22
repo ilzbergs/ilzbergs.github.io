@@ -21,7 +21,6 @@ async function renderJobs() {
     <div class="profile-bio">
         <p>${user.description}</p> 
  <div class="profile-link">
-  <button class="button-89 git" role="button"><a href="${user.github}" target="a_blank">Github Code</a></button> 
       <button class="button-89 live" role="button"><a href="${user.link}" target="a_blank">Live Preview</a></button> 
     </div>
     </div>
@@ -35,25 +34,6 @@ async function renderJobs() {
     container.innerHTML = html;
 }
 renderJobs();
-
-/* render sphere */
-const myTags = [
-    'JavaScript', 'CSS', 'HTML',
-    'Node.js', 'NPM', 'React', 'Git',
-    'Bootstrap'
-];
-var tagCloud = TagCloud('.content', myTags, {
-    radius: 180,
-    maxSpeed: 'normal',
-    initSpeed: 'normal',
-    direction: 135,
-    keep: true,
-});
-window.onbeforeunload = () => {
-    for (const form of document.getElementsByTagName('form')) {
-        form.reset();
-    }
-};
 
 // floatimg-text
 function checkForVisibility() {

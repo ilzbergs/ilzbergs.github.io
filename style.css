@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=VT323&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 :root {
-    --Roboto: 'Alegreya', serif;
-    --vt323: 'VT323', monospace;
+    --Roboto: 'Roboto', sans-serif;
     --white: #fff;
     --grey: #dbcfcf96;
-    --headingColor: #00DFFC;
-    --barlow: 'Barlow', sans-serif;
+    --headingColor: #feffff;
+    --open-sans: 'Open Sans', sans-serif;
 
 }
 
@@ -156,11 +155,6 @@ html {
     background-color: #e3d8d804;
 }
 
-span {
-    color: white;
-}
-
-
 .navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
@@ -175,7 +169,7 @@ span {
     padding: 0 18px;
     display: inline-block;
     list-style: outside none none;
-    font-family: var(--vt323);
+    font-family: var(--open-sans);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -200,7 +194,7 @@ span {
     height: 3px;
     width: 0%;
     content: "";
-    background-color:var(--headingColor);
+    background-color: var(--headingColor);
 }
 
 .navbar-nav a:after {
@@ -213,7 +207,7 @@ span {
     white-space: nowrap;
     max-width: 0%;
     overflow: hidden;
-    font-family: var(--vt323);
+    font-family: var(--open-sans);
 }
 
 .navbar-nav a:hover:before,
@@ -258,13 +252,13 @@ span {
     word-wrap: break-word;
     text-align: center;
     margin: 1rem;
-    font-family: 'VT323', monospace;
+    font-family: var(--open-sans);
     text-transform: uppercase;
     color: #0000;
-
+    font-weight: 700;
     background:
-        linear-gradient(-90deg, var(--headingColor) 5px, #0000 0) 10px 0,
-        linear-gradient(#00DFFC 0 0) 0 0;
+        linear-gradient(-90deg, white 5px, #7c171700 0) 10px 0,
+        linear-gradient(white 0 0) 0 0;
     background-size: calc(var(--n)*1ch) 200%;
     -webkit-background-clip: padding-box, text;
     background-clip: padding-box, text;
@@ -313,7 +307,7 @@ span {
     display: block;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .container-fluid.active {
@@ -359,16 +353,8 @@ span {
 
 .right {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
-
-@media only screen and (min-width: 992px) {
-    .right {
-        justify-content: space-around;
-    }
-}
-
 
 .about {
     font-size: 16px;
@@ -391,7 +377,8 @@ span {
     text-align: center;
     margin: 2rem 0;
     color: var(--headingColor);
-    font-family: var(--vt323);
+    font-family: var(--Roboto);
+    font-weight: 700;
     border-bottom: 1px solid rgba(236, 236, 241, 0.37);
 }
 
@@ -407,7 +394,7 @@ span {
 }
 
 .tagcloud {
-    font-family: var(--vt323);
+    font-family: var(--open-sans);
     font-size: 20px;
     color: white;
     z-index: 0;
@@ -432,7 +419,8 @@ span {
 .text {
     font-size: 20px;
     color: var(--headingColor);
-    font-family: var(--vt323);
+    font-family: var(--Roboto);
+    font-weight: 700;
 }
 
 @media only screen and (min-width: 992px) {
@@ -481,7 +469,7 @@ span {
     -moz-border-radius: 3px;
     border-radius: 3px;
     height: 200px;
-    margin: 20px auto;
+    margin: 20px 10px;
     width: 320px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3),
@@ -518,8 +506,8 @@ span {
 
 .profile-card .profile-header {
     color: var(--white);
-    font-family: var(--barlow);
-    font-weight: 500;
+    font-family: var(--Roboto);
+    font-weight: 400;
     letter-spacing: 1px;
     margin: 0;
     text-align: center;
@@ -547,7 +535,7 @@ span {
     font-size: 14px;
     font-style: italic;
     text-align: center;
-    font-family: var(--Roboto);
+    font-family: var(--open-sans);
 }
 
 .profile-card:hover {
@@ -595,7 +583,8 @@ span {
 .button-89 a {
     text-decoration: none;
     color: var(--white);
-    font-family: var(--vt323);
+    font-family: var(--Roboto);
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -635,7 +624,7 @@ span {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
-    font-family: var(--barlow);
+    font-family: var(--Roboto);
 }
 
 .contact-form {
@@ -655,7 +644,7 @@ span {
 
 .btn-contact {
     border-radius: 10px;
-    color: white;
+    color: rgb(7, 0, 0);
     width: 150px;
     height: 40px;
     font-family: var(--Roboto);
@@ -663,12 +652,7 @@ span {
     background-color: var(--headingColor);
     border: none;
     margin: 4rem 0;
-    font-family: var(--barlow);
-}
-
-.btn-close {
-    background-color: var(--headingColor);
-    border: none;
+    font-family: var(--Roboto);
 }
 
 .wrapper .icon {
@@ -761,4 +745,3 @@ footer {
     color: white;
     font-family: var(--Roboto);
 }
-
