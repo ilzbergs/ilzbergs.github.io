@@ -15,7 +15,7 @@ async function renderJobs() {
         let htmlSegment = `
   <div class="profile-card float">
     <div class="profile-header">
-            <img src="${user.image}">
+            <img src="${user.image}" alt="${user.name}">
         <h2>${user.name}</h2>
     </div class="profile-header">
     <div class="profile-bio">
