@@ -2,52 +2,46 @@
     {
         "name": "Portfolio",
         "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image":"images/portfolio.png",
-        "github":"https://github.com/ilzbergs/ilzbergs.github.io"
+        "link": "https://ilzbergs.github.io/portfolio2/",
+        "image":"images/portfolio.webp"
     },
     {
-        "name": "Portfolio2",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "Salary Calculator",
+        "description": "Simple salary calculator",
+        "link": "https://ilzbergs.github.io/calculator/",
+        "image": "images/salary.webp"
     },
     {
-        "name": "Portfolio3",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "ToDo",
+        "description": "ToDo application + data added to local storage",
+        "link": "https://ilzbergs.github.io/ToDo/",
+        "image": "images/todo.webp"
     },
     {
-        "name": "Portfolio4",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "TinDog",
+        "description": "Just some dummy site for dogs, like Tinder",
+        "link": "https://ilzbergs.github.io/tinDog-bootstrap-/",
+        "image": "images/tinDog.webp"
     },
     {
-        "name": "Portfolio5",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "BlogSite",
+        "description": "Your personal blog site (add endpoint /compose to add new blog)",
+        "link":"https://peaceful-gorge-83688.herokuapp.com/",
+        "image": "images/blogSite.webp"
     },
     {
-        "name": "Portfolio6",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "Drumkit",
+        "description": "Some simple application where you can play some drums",
+        "link": "https://ilzbergs.github.io/DrumKit/",
+        "image": "images/drumKit.webp"
     },
     {
-        "name": "Portfolio7",
-        "description": "My first project that I made as school graduation work",
-        "skills": "HTML, SCSS",
-        "link": "https://ilzbergs.github.io/",
-        "image": "images/portfolio.png"
+        "name": "ToDo list",
+        "description": "A little bit more complex ToDo app with Node.js and MongoDB",
+        "link": "https://warm-lake-38037.herokuapp.com/",
+        "image": "images/todolist.webp"
     }
+
+   
     
 ]
