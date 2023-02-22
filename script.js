@@ -35,7 +35,7 @@ async function renderJobs() {
 }
 renderJobs();
 
-// floatimg-text
+// floating-text
 function checkForVisibility() {
     var headers = document.querySelectorAll(".float");
     headers.forEach(function (header) {
